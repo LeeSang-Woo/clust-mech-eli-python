@@ -2,8 +2,7 @@
  This python codes was used in the paper "Two types of critical cell density for mechanical elimination of abnormal cell clusters from epithelial tissue" for analytical solution and data analysis
 
 - Environment
-
-Python 3.8.5
+ Python 3.8.5
 
 - Dependency
 Scipy
