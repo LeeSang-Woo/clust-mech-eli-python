@@ -15,3 +15,6 @@
 #### Data folders
 - init_data/ : Initial conditions of simulations (for init_cond.py)
 - sim_data/ : Simulation result files (for sim_data_analy.py)
+
+#### Simulation
+ To simulate, put the release file of C++ ([clust-mech-eli.exe](https://github.com/LeeSang-Woo/clust-mech-eli-cpp/releases/download/v1.0/clust-mech-eli.exe)) in **sim_data/(TargetFolder)/** and execute.
