@@ -1,0 +1,5 @@
+Start index:0
+End index:12
+Selected mu:120,130,140,150,160,170,180,190,200,210,220,230
+Selected size:100
+Repeat number:12
