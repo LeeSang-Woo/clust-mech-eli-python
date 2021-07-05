@@ -7,7 +7,7 @@ from scipy import optimize
 
 data_path = "./sim_data/"
 
-file_index = {"L001G0025_IC1":["InitCond1",0.01,0.025,np.linspace(120,400,29),[100,150,200,250]],
+file_index = {"L001G0025_IC1":["InitCond1",0.01,0.025,np.linspace(120,400,29),[100]],
               "L001G0047_IC1":["InitCond1",0.01,0.047,np.linspace(120,230,12),[100]],
               "L001G0069_IC1":["InitCond1",0.01,0.069,np.linspace(80,220,15),[100]],
               "L006G0015_IC1":["InitCond1",0.06,0.015,np.linspace(24,44,11),[100]],
@@ -15,7 +15,7 @@ file_index = {"L001G0025_IC1":["InitCond1",0.01,0.025,np.linspace(120,400,29),[1
               "L006G0055_IC1":["InitCond1",0.06,0.055,np.linspace(8,34,14),[100]],
               "L012G0002_IC1":["InitCond1",0.12,0.002,np.linspace(13,23,11),[100]],
               "L012G0021_IC1":["InitCond1",0.12,0.021,np.linspace(8,20,13),[100]],
-              "L012G0040_IC1":["InitCond1",0.12,0.04,np.linspace(2,20,19),[100,150,200,250]],
+              "L012G0040_IC1":["InitCond1",0.12,0.04,np.linspace(2,20,19),[100]],
               "L001G0025_IC2":["InitCond2",0.01,0.025,np.linspace(150,210,13),[100]],
               "L001G0047_IC2":["InitCond2",0.01,0.047,np.linspace(100,150,11),[100]],
               "L001G0069_IC2":["InitCond2",0.01,0.069,np.linspace(3,69,23),[100]],
@@ -370,7 +370,7 @@ for dn, pop_size, onset_mu in itertools.product(dn_list, pop_size_list, onset_mu
 # To plot the frequencies of elimination failure, growth suspension, and elimination success (Fig 2)
 type_dict = make_type_dict(delta_t, data_dict, dn_list, pop_size_list, onset_mu_list, sim_end_list)
 plot_type_dict(type_dict, sim_end, 100, onset_mu_list, len(dn_list), la, 'f')
-plot_normalize_type_dict(type_dict, sim_end, pop_size_list, onset_mu_list, len(dn_list), la)
+# plot_normalize_type_dict(type_dict, sim_end, pop_size_list, onset_mu_list, len(dn_list), la)
 
 
 # To plot the time averages of cell area (Fig 2)
