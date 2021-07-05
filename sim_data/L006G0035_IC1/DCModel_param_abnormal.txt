@@ -1,5 +1,5 @@
 Normal growth flag:0
-Abnormal relative growth:2.0
+Abnormal relative growth:1.0
 Abnormal initial index:488
 Abnormal initial layer real:100
 Onset abnormal cluster size:0
