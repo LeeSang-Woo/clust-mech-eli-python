@@ -1,5 +1,0 @@
-Start index:0
-End index:11
-Selected mu:13,14,15,16,17,18,19,20,21,22,23
-Selected size:100
-Repeat number:11
